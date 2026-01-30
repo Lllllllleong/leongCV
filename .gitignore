@@ -20,7 +20,6 @@
 *.lot
 *.nav
 *.out
-*.pdf
 *.snm
 *.synctex*
 *.toc

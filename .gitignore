@@ -30,3 +30,7 @@
 .vscode/
 *.swp
 *~
+
+# Project-specific
+SJob/
+anu_transcript.pdf

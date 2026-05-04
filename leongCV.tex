@@ -158,20 +158,18 @@
     \kern 5pt \AND \kern 5pt
     \mbox{0481 575 872}%
     \kern 5pt \AND \kern 5pt
-    \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/leongyinchan/}{LinkedIn}}%
-    \kern 5pt \AND \kern 5pt
     \textbf{\mbox{\hrefWithoutArrow{https://github.com/Lllllllleong}{GitHub}}}%
     \kern 5pt \AND \kern 5pt
-    \mbox{\hrefWithoutArrow{https://gitlab.com/llllllllleong/my-individual-works}{Coursework}}%
+    \textbf{\mbox{\hrefWithoutArrow{https://www.whyhireleong.com/}{Website}}}%
+    \kern 5pt \AND \kern 5pt
+    \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/leongyinchan/}{LinkedIn}}%
 
 \end{header}
 
 \vspace{0.1cm}
 
 \section{Summary}
-Software Engineer (Backend \& Cloud) with a quantitative background and 1 year of experience. Focused on building resilient and data-driven solutions with Go on Google Cloud Platform. Recent work involved migrating services from Python to Go, and establishing CI/CD with GitHub Actions and Terraform.
-
-
+Backend and Cloud Engineer based in Sydney with a year of production experience building Go services on GCP. I'm a Google Cloud Certified Professional Cloud Developer and have worked across the stack, from infrastructure-as-code to API design. I came to engineering from a quantitative background, which shows up in how I think about performance, reliability, and cost.
 \section{Experience}
 \vspace{0.1cm}
 
@@ -183,9 +181,9 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 
 \begin{onecolentry}
     \begin{highlights}
-        \item Migrated 5 microservices from Python to Go, to address high memory footprint and cold-start latency. Implemented bounded worker pools, dropping P99 latency by 60\% (<300ms) and reducing serverless GiB-seconds by 40\%.
+        \item Migrated 5 Python services to Go on Cloud Run, reducing memory per instance and cold-start latency. Added bounded worker pools to cap concurrency under burst traffic. Combined, the changes brought P99 under 300ms ($\sim$60\% improvement) and cut monthly GiB-seconds by $\sim$40\%.
         \item Modernised deployment security by replacing long-lived keys with OIDC federation.
-        \item Implemented the ingestion pipeline for complex engineering documents (SaaS prototype), benchmarking chunking and embedding strategies to achieve >90\% retrieval accuracy against a client-validated golden dataset.
+        \item Built the document ingestion pipeline for the SaaS prototype. Benchmarked chunking strategies and embedding models against a client-validated golden dataset, iterating until retrieval quality passed client acceptance.
     \end{highlights}
 \end{onecolentry}
 
@@ -193,7 +191,7 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 \vspace{0.1cm}
 
 \begin{onecolentry}
-    \href{https://github.com/Lllllllleong/wazePoliceScraperGCP}{\textbf{Geospatial Data Pipeline}}\textbf{ | Go, Terraform}
+    \href{https://github.com/Lllllllleong/wazePoliceScraperGCP}{\textbf{Real-time Waze Alert Scraper and Analytics Dashboard}}\textbf{ | Go, Terraform}
 \end{onecolentry}
 
 
@@ -201,10 +199,10 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 
 \begin{onecolentry}
     \begin{highlights}
-        \item Automated the archival of stale Firestore data to GCS, reducing NoSQL read operations by 86\% per request.
-        \item Imported existing GCP resources into reusable Terraform modules to enable infrastructure-as-code and drift detection.
+        \item Automated the archival of cold Firestore data to GCS, reducing NoSQL read operations by up to 86\% per request.
+        \item Imported existing GCP resources into reusable Terraform modules.
         \item Developed Go REST APIs with token-bucket rate limiting to guard resources.
-        \item Implemented integration tests using Firestore Emulators.
+        \item Implemented integration tests using Firestore emulators.
 
     \end{highlights}
 \end{onecolentry}
@@ -212,14 +210,13 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 \vspace{0.2cm}
 
 \begin{onecolentry}
-    \href{https://www.whyhireleong.com/}{\textbf{RAG-Based AI Agent \& Portfolio}}\textbf{ | Go, TypeScript, Next.js}
+    \href{https://www.whyhireleong.com/}{\textbf{WhyHireLeong.com}}\textbf{ | Go, TypeScript, Next.js}
 \end{onecolentry}
 
 \vspace{0.1cm}
 
 \begin{onecolentry}
     \begin{highlights}
-        \item Built a RAG-based LLM agent utilising vector embeddings for semantic search.
         \item Implemented a chat interface using Next.js and streaming response handlers to render LLM tokens immediately upon generation.
     \end{highlights}
 \end{onecolentry}
@@ -229,17 +226,17 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 
 \begin{onecolentry}
     \begin{tabularx}{\linewidth}{@{} l X @{}}
-        \textbf{Languages:}           & Go, Python \\[0.2cm]
+        \textbf{Languages:}           & Go, Java, SQL, Python \\[0.2cm]
         \textbf{Cloud \& Infrastructure:} & Cloud Run, Firestore (NoSQL), GCS, Vertex AI, Pub/Sub, IAM \& Security Policies \\[0.2cm]
-        \textbf{DevOps \& Tools:}     & Terraform, Docker, GitHub Actions, Concurrency, RAG, Git  \\[0.2cm]
-        \textbf{Certifications:}      & Google Cloud Certified - Professional Cloud Developer      \\[0.2cm]
+        \textbf{DevOps, Tools \& Concepts:}     & Terraform, Docker, GitHub Actions, Concurrency, RAG, Git  \\[0.2cm]
+        \textbf{Certifications:}      & Google Cloud Certified – Professional Cloud Developer      \\[0.2cm]
     \end{tabularx}
 \end{onecolentry}
 
 \section{Education}
 \vspace{0.1cm}
 
-\textbf{The Australian National University} 
+\textbf{The Australian National University}\hfill{} \hrefWithoutArrow{https://gitlab.com/llllllllleong/my-individual-works}{Coursework}%
 
 
 \vspace{0.1cm}
@@ -261,7 +258,7 @@ Software Engineer (Backend \& Cloud) with a quantitative background and 1 year o
 
 \begin{onecolentry}
     \begin{highlights}
-        \item Supervised a cohort of 26 residents, enforcing safety protocols and mediating conflict resolution as a first-responder for critical incidents.
+        \item Managed escalation and incident response across a residential cohort of 26.
         \item Earned two scholarships (\$16,000 in 2023; \$4,000 in 2020) for contributions to collegiate life and academic excellence.
     \end{highlights}
 \end{onecolentry}

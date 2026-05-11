@@ -34,3 +34,4 @@
 # Project-specific
 SJob/
 anu_transcript.pdf
+.claude/settings.local.json
